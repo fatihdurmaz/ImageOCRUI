@@ -20,7 +20,17 @@ You can include this package in your project via Swift Package Manager. In your 
 ```url
 https://github.com/fatihdurmaz/ImageOCRUI
 ```
+## Camera Usage Description
 
+This app requires access to your device's camera to enable photo capturing features. When you use these functionalities for the first time, iOS will prompt you to grant the necessary permissions.
+
+
+```xml
+
+<key>NSCameraUsageDescription</key>
+<string>This app requires permission to access camera to scan photo</string>
+
+```
 
 ## Usage/Examples
 
