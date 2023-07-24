@@ -24,6 +24,7 @@ https://github.com/fatihdurmaz/ImageOCRUI
 
 This app requires access to your device's camera to enable photo capturing features. When you use these functionalities for the first time, iOS will prompt you to grant the necessary permissions.
 
+Add the following permissions to the Info.plist file.
 
 ```xml
 
