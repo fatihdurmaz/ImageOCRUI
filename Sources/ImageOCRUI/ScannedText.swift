@@ -10,4 +10,8 @@ import Foundation
 public struct ScannedText: Identifiable {
     public let id: UUID = UUID()
     public var scannedText: String
+    
+    public init(scannedText: String) {
+        self.scannedText = scannedText
+    }
 }
