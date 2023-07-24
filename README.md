@@ -60,7 +60,7 @@ struct ContentView: View {
                 let scannedData = ScannedText(scannedText: concatenatedText)
                 self.texts.append(scannedData)
             }
-            self.dismissScannerSheet()
+            self.showScannerSheet = false
         })
     }
 }
