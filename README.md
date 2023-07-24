@@ -47,7 +47,7 @@ struct ContentView: View {
                         showScannerSheet = true
                     }
                     .sheet(isPresented: $showScannerSheet) {
-                        self.makeScannerView()
+                        self.createScannerView()
                     }
                 }
             }
